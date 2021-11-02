@@ -1,0 +1,342 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:16px 16px;
+   
+ 
+}
+#text1{
+    align-items: center;
+    justify-content: center;
+}
+#btn1{
+   
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    color: #252537;
+    min-height: 200px;
+    padding: 0 20px;
+    background: #B8F2E6;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 80%);
+}
+#button2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #252537;
+    min-height: 200px;
+    padding: 0 20px;
+    background: #B8F2E6;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 80%);
+}
+
+#button2:hover {
+    transform: translatey(3px);
+    box-shadow: 0 0 2px rgb(255 33 0 / 54%);
+    animation: buttonAnimation 0.4s ease-in-out infinite alternate;
+}
+
+#button2:focus {
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 3px rgb(3 169 244 / 80%);
+}
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.controls + .controls {
+    margin-top: 30px;
+}
+main span {
+    position: relative;
+}
+
+main span::before,
+main span::after {
+    content: '';
+    position: absolute;
+    color: #333;
+    top: 2px;
+    bottom: 2px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    height: 20px;
+    width: 34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+main span::before {
+    left: 2px;
+    border-radius: 5px 0 0 5px;
+}
+
+main span::after {
+    right: 2px;
+    border-radius: 0 5px 5px 0;
+}
+main input {
+    height: 10px;
+    padding: 15px 36px;
+    font-size: 16px;
+    color: #5E6472;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+    .sex1{
+        width: 20px;
+        height: 20px;
+        left: 500px;
+        position: relative;
+        margin-left: 100px;
+        margin-top: 20px;
+        background: url(img2.png);
+    }
+    .sex2{
+        width: 20px;
+        height: 20px;        
+        right: 700px;
+        position: relative;
+        margin-left: 100px;
+        margin-top: 20px;
+        background: url(img3.png);
+    }
+    .controls2{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    }
+    .controls3{
+        display: flex;
+    align-items: center;
+    margin-top: 20px;
+    }
+    .position1{
+        display: block;
+        width: 100px;
+        height: 50px;
+        background: url(img11.png);
+    }
+    .position2{
+        display: block;
+        width: 100px;
+        height: 50px;
+        background: url(img22.png);
+    }
+    .position3{
+        display: block;
+        width: 100px;
+        height: 50px;
+        background: url(img33.png);
+    }
+    .position4{
+        display: block;
+        width: 100px;
+        height: 50px;
+        background: url(img44.png);
+    }
+.controls4{
+    margin-top: 20px;
+    margin-bottom: 20px
+    ;
+}
+#button2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #252537;
+    min-height: 50px;
+    padding: 0 20px;
+    background: #B8F2E6;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 80%);
+}
+
+#button2:hover {
+    transform: translatey(3px);
+    box-shadow: 0 0 2px rgb(255 33 0 / 54%);
+    animation: buttonAnimation 0.4s ease-in-out infinite alternate;
+}
+
+#button2:focus {
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 3px rgb(3 169 244 / 80%);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 450px;
+    border-radius: 24px;
+    box-shadow: 0 9px 50px hsl(20deg 67% 75% / 31%);
+    padding: 40px;
+    /*background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+    color: #3e403f;*/
+    animation: bounceInDown 1s ease-in both;
+}
+#male{
+    border-radius: 100%;
+    position: absolute;
+    left: 600px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-image:url(img2.png)
+    
+}
+input[type="radio"]:checked+#male{
+     height: 50px;
+     width: 50px;
+     display: inline-block;
+     background-color: skyblue;
+    
+}
+#female{
+    border-radius: 100%;
+    left: 700px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-image:url(img3.png)
+
+}
+input[type="radio"]:checked+#female{
+ 
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-color: skyblue;
+   
+}
+#p1{
+   
+    border: 2px solid #B8F2E6;
+    border-radius: 10%;
+    position: relative;
+    left: 100px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    background-color: white;
+    
+    
+}
+input[type="checkbox"]:checked+#p1{
+     height: 30px;
+     width: 100px;
+     display: block;
+     background-color: skyblue;
+    
+}
+#p2{
+    border: 2px solid #B8F2E6;
+    border-radius: 10%;
+    position: relative;
+    left: 100px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    
+    
+}
+input[type="checkbox"]:checked+#p2{
+     height: 30px;
+     width: 100px;
+     display: block;
+     background-color: skyblue;
+    
+}#p3{
+    border: 2px solid #B8F2E6;
+    border-radius: 10%;
+    position: relative;
+    left: 100px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    
+    
+}
+input[type="checkbox"]:checked+#p3{
+     height: 30px;
+     width: 100px;
+     display: block;
+     background-color: skyblue;
+    
+}#p4{
+    border: 2px solid #B8F2E6;
+    
+    border-radius: 10%;
+    border-radius: 10%;
+    position: relative;
+    left: 100px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    
+}
+input[type="checkbox"]:checked+#p4{
+     height: 30px;
+     width: 100px;
+     display: block;
+     background-color:skyblue;
+    
+}
+.controls11{
+    margin-top: auto;
+    height: 250px;
+}
+#textarea{
+   height: 100px;
+   border: 2px solid black;
+}
+#png0{
+    width: 20px;
+    height: 20px;
+
+}
+

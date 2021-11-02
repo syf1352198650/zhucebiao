@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>报名表</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="index1.js"></script>
+</head>
+<body>
+    <main>
+        <form name="myForm" action="demo-form.php" onsubmit="return checkAll()" method="post">
+            <div id="uploadImg" class="controls">
+                <button onclick="selectImg()" style="background:url(img1.png) ;"  id="btn1"></button>
+            </div>
+            <div class="controls" id="text1">点击选择头像</div>
+            <div class="controls">
+                
+                <span class="user">
+                    <input type="text" id="name" name="Fname" required placeholder="姓名">
+                </span>
+            </div>
+            <div class="controls">
+                <label for="num"></label>
+                <span class="num" >
+                    <input type="number" id="num" name="num" required placeholder="学号">
+                </span>
+            </div>
+            <div>
+        
+                    <input type="radio" id="sex1" name="sex1" style="display: none;" class="gender"  >
+                    <label for="sex1" id="male"></label>
+                
+               
+                <input type="radio" id="sex2" name="sex"   style="display: none;" class="gender">
+                <label for="sex2" id="female"></label>
+              
+            </div>
+            
+                <div class="controls2">
+                    <label for="">
+                        <span class="">
+                            <input type="text" id="xueyuan" required placeholder="学院">
+                        </span>
+                    </label>
+                </div>
+                <div class="controls3">
+                    <label for="">
+                        <span class="">
+                            <input type="text" id="zhuanye" required placeholder="专业">
+                        </span>
+                    </label>
+                </div>
+                <div class="controls4">
+                    <label for="">请选择理想部门||你的特长||你感兴趣方向</label>
+                </div>
+                <div class="controls11">
+                    <input type="checkbox" id="position1" style="display: none;" onclick="doCheck(this)">
+                    <label for="position1" id="p1">设计部</label>
+                    <input type="checkbox" id="position2" style="display: none;"   onclick="doCheck(this)">
+                    <label for="position2" id="p2">技术部</label>
+                    <input type="checkbox" id="position3" style="display: none;"  onclick="doCheck(this)">
+                    <label for="position3" id="p3">人资推广部</label>
+                    <input type="checkbox" id="position4" style="display: none;"  onclick="doCheck(this)">
+                    <label for="position4" id="p4">媒体运营部</label>
+                </div>
+                <div class="controls">
+                    <label for="" id="jianjie" >个人简介</label>
+                    <img src="pen.png" alt="" id="png0">
+                </div>
+                <div class="controls">  
+                    <input type="text" required placeholder="请简单描述一下自己" id="textarea"></div>
+                <div class="controls">
+                    <label for="">联系方式</label>
+                </div>
+                <div class="controls">
+                    <input type="number" required placeholder="长号" id="changhao">
+                </div>
+                <div class="controls" >    
+                    <input type="number" required placeholder="短号" id="duanhao">
+                </div>
+                
+                <div class="controls">
+                    <input type="email" required placeholder="邮箱" id="email">
+                </div>
+                <div class="controls">
+                    <input type="number" required placeholder="QQ" id="QQ">
+                    
+                </div>
+               
+                <div class="controls">
+                    <input type="radio">
+                    <label for="">注意事项</label>
+                </div>
+                <div class="controls">
+                    <label for="">1.准确日期请关注家园微信服务号(在杭电)</label>
+                </div>
+                <div class="controls">
+                 <label for="">
+                     2.获取后续面试资讯，可以加入家园新生交流QQ群:745080557
+                 </label>   
+                </div>
+                <div class="controls">
+                    <label for="">
+                        3.家园工作地址:综合楼302
+                    </label>
+                </div>
+                <div class="controls">
+                    <label for="">
+                        4.请如实填写以上信息
+                    </label>
+                </div>
+                <div class="controls">
+                    <button onclick="checkAll()" id="button2" type="submit">提交</button>
+                </div>
+                
+                
+                
+                
+        </form>
+    </main>
+    <footer>
+            <p>&copy;</p>
+    </footer>
+</body>
+</html>
